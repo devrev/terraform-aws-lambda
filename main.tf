@@ -84,6 +84,13 @@ resource "aws_lambda_function" "this" {
     }
   }
 
+  dynamic "tenancy_config" {
+    for_each = var.tenant_isolation_mode ? [true] : []
+    content {
+      tenant_isolation_mode = "PER_TENANT"
+    }
+  }
+
   dynamic "tracing_config" {
     for_each = var.tracing_mode == null ? [] : [true]
     content {
