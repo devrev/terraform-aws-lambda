@@ -278,6 +278,12 @@ variable "skip_destroy" {
   default     = null
 }
 
+variable "tenant_isolation_mode" {
+  description = "Whether to enable tenant isolation mode"
+  type        = bool
+  default     = false
+}
+
 ###############
 # Function URL
 ###############
