@@ -676,10 +676,10 @@ Q4: What does this error mean - `"We currently do not support adding policies fo
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.27.0 |
-| <a name="provider_external"></a> [external](#provider\_external) | 2.3.5 |
-| <a name="provider_local"></a> [local](#provider\_local) | 2.6.1 |
-| <a name="provider_null"></a> [null](#provider\_null) | 3.2.4 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 6.23.0 |
+| <a name="provider_external"></a> [external](#provider\_external) | >= 1.0 |
+| <a name="provider_local"></a> [local](#provider\_local) | >= 1.0 |
+| <a name="provider_null"></a> [null](#provider\_null) | >= 2.0 |
 
 ## Modules
 
